@@ -1,4 +1,4 @@
-function Module(login,password){
+export default function Module(login,password){
   let userPassword = password;
   let userfio = '';
   return{ 
